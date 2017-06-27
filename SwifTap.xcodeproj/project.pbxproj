@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2ACC0D1E33FAC6007E2E52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2ACC0C1E33FAC6007E2E52 /* Images.xcassets */; };
+		EAA1BAA41E33B0BB00716BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1BAA31E33B0BB00716BF4 /* AppDelegate.swift */; };
+		EAA1BAA61E33B0BB00716BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1BAA51E33B0BB00716BF4 /* ViewController.swift */; };
+		EAA1BAA91E33B0BB00716BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA1BAA71E33B0BB00716BF4 /* Main.storyboard */; };
+		EAA1BAAB1E33B0BB00716BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAA1BAAA1E33B0BB00716BF4 /* Assets.xcassets */; };
+		EAA1BAAE1E33B0BB00716BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAA1BAAC1E33B0BB00716BF4 /* LaunchScreen.storyboard */; };
+		EAA1BAB61E33BAA000716BF4 /* CGFloat+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1BAB51E33BAA000716BF4 /* CGFloat+Random.swift */; };
+		EAA1BAB81E33BAB400716BF4 /* UIColor+RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA1BAB71E33BAB400716BF4 /* UIColor+RandomColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA2ACC0C1E33FAC6007E2E52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAA1BAA01E33B0BB00716BF4 /* SwifTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA1BAA31E33B0BB00716BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAA1BAA51E33B0BB00716BF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAA1BAA81E33B0BB00716BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAA1BAAA1E33B0BB00716BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAA1BAAD1E33B0BB00716BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAA1BAAF1E33B0BB00716BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA1BAB51E33BAA000716BF4 /* CGFloat+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Random.swift"; sourceTree = "<group>"; };
+		EAA1BAB71E33BAB400716BF4 /* UIColor+RandomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RandomColor.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA1BA9D1E33B0B900716BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA1BA971E33B0B900716BF4 = {
+			isa = PBXGroup;
+			children = (
+				EAA1BAB51E33BAA000716BF4 /* CGFloat+Random.swift */,
+				EAA1BAB71E33BAB400716BF4 /* UIColor+RandomColor.swift */,
+				EAA1BAA21E33B0BB00716BF4 /* SwifTap */,
+				EAA1BAA11E33B0BB00716BF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA1BAA11E33B0BB00716BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1BAA01E33B0BB00716BF4 /* SwifTap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA1BAA21E33B0BB00716BF4 /* SwifTap */ = {
+			isa = PBXGroup;
+			children = (
+				EAA1BAA31E33B0BB00716BF4 /* AppDelegate.swift */,
+				EAA1BAA51E33B0BB00716BF4 /* ViewController.swift */,
+				EAA1BAA71E33B0BB00716BF4 /* Main.storyboard */,
+				EAA1BAAA1E33B0BB00716BF4 /* Assets.xcassets */,
+				EAA1BAAC1E33B0BB00716BF4 /* LaunchScreen.storyboard */,
+				EAA1BAAF1E33B0BB00716BF4 /* Info.plist */,
+				EA2ACC0C1E33FAC6007E2E52 /* Images.xcassets */,
+			);
+			path = SwifTap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA1BA9F1E33B0B900716BF4 /* SwifTap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA1BAB21E33B0BB00716BF4 /* Build configuration list for PBXNativeTarget "SwifTap" */;
+			buildPhases = (
+				EAA1BA9C1E33B0B900716BF4 /* Sources */,
+				EAA1BA9D1E33B0B900716BF4 /* Frameworks */,
+				EAA1BA9E1E33B0B900716BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwifTap;
+			productName = SwifTap;
+			productReference = EAA1BAA01E33B0BB00716BF4 /* SwifTap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA1BA981E33B0B900716BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joshua Reno";
+				TargetAttributes = {
+					EAA1BA9F1E33B0B900716BF4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GQ942Q6M4B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EAA1BA9B1E33B0B900716BF4 /* Build configuration list for PBXProject "SwifTap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA1BA971E33B0B900716BF4;
+			productRefGroup = EAA1BAA11E33B0BB00716BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA1BA9F1E33B0B900716BF4 /* SwifTap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA1BA9E1E33B0B900716BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1BAAE1E33B0BB00716BF4 /* LaunchScreen.storyboard in Resources */,
+				EA2ACC0D1E33FAC6007E2E52 /* Images.xcassets in Resources */,
+				EAA1BAAB1E33B0BB00716BF4 /* Assets.xcassets in Resources */,
+				EAA1BAA91E33B0BB00716BF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA1BA9C1E33B0B900716BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA1BAB81E33BAB400716BF4 /* UIColor+RandomColor.swift in Sources */,
+				EAA1BAA61E33B0BB00716BF4 /* ViewController.swift in Sources */,
+				EAA1BAA41E33B0BB00716BF4 /* AppDelegate.swift in Sources */,
+				EAA1BAB61E33BAA000716BF4 /* CGFloat+Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAA1BAA71E33B0BB00716BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA1BAA81E33B0BB00716BF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAA1BAAC1E33B0BB00716BF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA1BAAD1E33B0BB00716BF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA1BAB01E33B0BB00716BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA1BAB11E33B0BB00716BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA1BAB31E33B0BB00716BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GQ942Q6M4B;
+				INFOPLIST_FILE = SwifTap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gatech.joshreno.SwifTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EAA1BAB41E33B0BB00716BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GQ942Q6M4B;
+				INFOPLIST_FILE = SwifTap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gatech.joshreno.SwifTap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA1BA9B1E33B0B900716BF4 /* Build configuration list for PBXProject "SwifTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA1BAB01E33B0BB00716BF4 /* Debug */,
+				EAA1BAB11E33B0BB00716BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA1BAB21E33B0BB00716BF4 /* Build configuration list for PBXNativeTarget "SwifTap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA1BAB31E33B0BB00716BF4 /* Debug */,
+				EAA1BAB41E33B0BB00716BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA1BA981E33B0B900716BF4 /* Project object */;
+}

@@ -126,14 +126,7 @@ class ViewController: UIViewController {
             player2Score.text = "Player 2: \(playerTwoTapCount)"
         }
     }
-    
-//    override var preferredStatusBarStyle: UIStatusBarStyle{
-//        return .lightContent
-//    }
-    
-    
-    
-    // second view
+
     
     
     override func viewDidLoad() {
